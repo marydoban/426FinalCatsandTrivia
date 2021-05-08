@@ -1,6 +1,6 @@
 # 426FinalCatsandTrivia
 this is a vanilla trivia game but you will see some cool cat memes
-In order to get this working you need to run npm init, npm install jQuery, npm install axios. 
+In order to get this working you need to run npm init, npm install jQuery, npm install axios. You will also need to install LiveServer or Browsersync as thisproject runs locally
 #How to Play
 The goal of the game is to correctly answer the trivia questions given in order to get a score of 400. If you do so, you will be transferred to the end page and you will receive an inspirational quote. If you are unsuccessful, you will be taken to the end page where you can type in your name and fill in with autocomplete. However, until I can get firebase working you cannot save your score. Press play again and keep trying to receive your quote, and carry on with your day with new found inspiration.
 #426 Final requirements:
