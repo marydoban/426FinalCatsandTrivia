@@ -7,3 +7,5 @@ The goal of the game is to correctly answer the trivia questions given in order 
 Game: I made a Game.
 APIS: I used 3 external apis: 1 for the trivia questions, 1 for the cat memes, and 1 to retrieve inspirational quotes. 
 Autocompp: I added an interesting form of autocomplete for the name field.
+#NOTE
+This is to be run on a local server. I used LiveServer
