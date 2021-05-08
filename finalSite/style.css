@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    background-color: rgb(252, 6, 129)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 110%;
+    font-family: 'Lobster', cursive;
+
+}
+h2 {
+    font-size: 5 rem;
+    color:#3a93e7;
+    text-shadow: 1px 1px 2px 	#FFFFFF,
+    1px 1px 2px 	#FFFFFF,
+    1px -1px 0 	#FFFFFF,
+    -1px -1px 0 	#FFFFFF;
+    margin-bottom: 5 rem;
+}
+h2 {
+    font-size: 4 rem;
+    margin-bottom: 4 rem;
+
+
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0auto;
+    padding: 2rem;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.justfy-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.homebtn.btn {
+    position: absolute;
+
+}
+.btn {
+    font-size: 2.3rem;
+    padding: 1rem 0;
+    width: 16rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #000,
+    1px 1px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(31, 60, 223), rgb(0, 33, 219)100%);    border-radius: 6px;
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 .4rem 1.4rem 0 rgb(139, 191, 233);
+    transition: transform 150ms;
+    transform: scale(1.02)
+}
+.btn[disable]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.fa-crown {
+    font-size: 2remm;
+    margin-left: 1rem;
+}
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 38rem
+
+}
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5 rem;
+    font-size: 1.5 rem;
+    border: none;
+    box-shadow: 0 .1rem 1.4rem 0 blueviolet
+}
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none
+}
+#end-text {
+    font-size: 2em;
+    color: rgb(101, 55, 226);
+    text-align: center
+}
+#saveScoreBin {
+    border: none;
+}
+.fa-home {
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: black
+    
+}
